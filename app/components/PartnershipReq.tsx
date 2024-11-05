@@ -6,42 +6,76 @@ import cardImage from "../../public/img/partner-req.png";
 import cardImage2 from "../../public/img/partner-req-2.png";
 import cardImage3 from "../../public/img/partner-req-3.png";
 import cardImage4 from "../../public/img/partner-req-4.png";
+import { useContext } from "react";
+import { BaseContext } from "../context/BaseContext";
+
+const reqs = [
+  {
+    icon: cardImage,
+    description: {
+      id: "Badan usaha wajib pajak",
+      en: "It must be a tax-registered business entity.",
+    },
+  },
+  {
+    icon: cardImage2,
+    description: {
+      id: "Perusahaan lebih dari 2 tahun berjalan",
+      en: "The company must have been operational for over 2 years.",
+    },
+  },
+  {
+    icon: cardImage3,
+    description: {
+      id: "Dapat menunjukkan portofolio proyek",
+      en: "Must be able to provide a project portfolio.",
+    },
+  },
+  {
+    icon: cardImage4,
+    description: {
+      id: "Memiliki izin usaha jasa konstruksi",
+      en: "Must have a construction business permit.",
+    },
+  },
+];
 
 export default function PartnershipReq() {
+  const ItemContext = useContext(BaseContext);
+
   return (
     <div className="flex flex-col items-center py-12 bg-white">
       {/* Title */}
       <Typography className="text-3xl font-semibold mb-4">
-        Partnership Requirements
+        {ItemContext.languages === "indonesia"
+          ? "Syarat Kontraktor"
+          : "Partnership Requirements"}
       </Typography>
       <div className="w-[17.9631rem] h-[0.8125rem] bg-[#B0E788] rounded-full mb-8"></div>
 
       {/* Requirement Cards */}
       <div className="flex flex-wrap justify-center gap-6 max-w-6xl">
-        {/* Card 1 */}
-        <RequirementCard
-          icon={cardImage}
-          bgColor="bg-blue-100"
-          description="It must be a tax-registered business entity."
-        />
-        {/* Card 2 */}
-        <RequirementCard
-          icon={cardImage2}
-          bgColor="bg-green-200"
-          description="The company must have been operational for over 2 years."
-        />
-        {/* Card 3 */}
-        <RequirementCard
-          icon={cardImage3}
-          bgColor="bg-blue-100"
-          description="Must be able to provide a project portfolio."
-        />
-        {/* Card 4 */}
-        <RequirementCard
-          icon={cardImage4}
-          bgColor="bg-purple-100"
-          description="Must have a construction business permit."
-        />
+        {reqs.map((req, index) => {
+          if (ItemContext.languages === "indonesia") {
+            return (
+              <RequirementCard
+                key={index}
+                icon={req.icon}
+                bgColor="bg-[#E8F0FE]"
+                description={req.description.id}
+              />
+            );
+          } else {
+            return (
+              <RequirementCard
+                key={index}
+                icon={req.icon}
+                bgColor="bg-[#E8F0FE]"
+                description={req.description.en}
+              />
+            );
+          }
+        })}
       </div>
     </div>
   );

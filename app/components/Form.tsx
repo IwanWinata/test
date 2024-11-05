@@ -2,16 +2,21 @@
 
 import { TextField, Button, Typography } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
-import { FC } from "react";
+import { FC, useContext } from "react";
+import { BaseContext } from "../context/BaseContext";
 
 const Form: FC = () => {
+  const ItemContext = useContext(BaseContext);
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#DBF5FF]">
       <div className="flex gap-8 w-full px-8 md:px-0 justify-center">
         {/* Left Section */}
         <div className="flex flex-col justify-center max-w-[33.5rem]">
           <Typography className="text-[2.25rem] font-semibold mb-4">
-            Get access to large-scale projects now!
+            {ItemContext.languages === "indonesia"
+              ? "Yuk, dapatkan akses ke proyek besar sekarang!"
+              : "Get access to large-scale projects now!"}
           </Typography>
         </div>
 

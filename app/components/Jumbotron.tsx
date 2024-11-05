@@ -37,13 +37,15 @@ const Jumbotron = () => {
                   fontWeight: 500,
                 }}
               >
-                Ubah Lahan Menganggur <br />
+                Akses ke Peluang <br />
+                Proyek Besar <br />
                 <span
                   style={{
                     color: "#7CA8FF",
                   }}
                 >
-                  Jadi Proyek Menguntungkan
+                  Sekaligus Modal <br />
+                  Kerjanya
                 </span>
               </Typography>
               <Typography
@@ -52,8 +54,9 @@ const Jumbotron = () => {
                   fontWeight: "100",
                 }}
               >
-                Punya tanah kosong yang belum dimanfaatkan secara optimal? Atau
-                mau jual tanah tapi gak laku-laku?
+                Dapatkan peluang proyek besar melalui Amani. Gak cuma dapet
+                proyek, pendanaan modal kerja juga siap bikin operasional kamu
+                makin lancar!
               </Typography>
             </>
           ) : (
@@ -104,7 +107,7 @@ const Jumbotron = () => {
               }}
             >
               {ItemContext.languages === "indonesia"
-                ? "Pelajari Lebih Lanjut"
+                ? "Mulai Sekarang"
                 : "Get Started Now"}
             </Typography>
             <ArrowForwardIcon />
