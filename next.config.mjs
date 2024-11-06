@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 import 'dotenv/config'
 const nextConfig = {
-  basePath: '/kontraktor',
+  basePath: '/contractor',
   output: 'standalone',
   env: {
     DB_USER: process.env.DB_USER,
