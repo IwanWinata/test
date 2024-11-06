@@ -1,10 +1,10 @@
 version: '3'
 services:
-  lp_developer:
-    image: registry.happyhomes.id/amani-repos/lp_developer:production
+  lp_kontraktor:
+    image: registry.happyhomes.id/amani-repos/lp_kontraktor:production
     env_file:
       - .env.production
-    container_name: lp_developer
+    container_name: lp_kontraktor
     ports:
       - 3015:3000
     restart: always
