@@ -1,0 +1,108 @@
+{
+  "NavBar": {
+    "about": "About Us",
+    "build": "Build As",
+    "story": "Story of Amani"
+  },
+  "Jumbotron": {
+    "titleLine1": "Secure More Projects",
+    "titleLine2": "with",
+    "titleLine3": "Hassle-Free",
+    "titleLine4": "Working Capital!",
+    "desc": "Join Amani, tap into large-scale project opportunities, and gain the working capital to keep your operations smooth and efficient.",
+    "button": "Get Started Now"
+  },
+  "WhyAmani": {
+    "title": "Why Choose Amani?",
+    "cardTitle1": "Guaranteed Payments",
+    "cardDesc1": "Rest assured, your payments are secure with Amani.",
+    "cardTitle2": "Material Financing",
+    "cardDesc2": "Buy now, pay later with safe, sharia-compliant financing options.",
+    "cardTitle3": "Endless Project Opportunities",
+    "cardDesc3": "Dive into various large-scale projects with Amani’s easy-to-use bidding platform and compete to win."
+  },
+  "HowItWorks": {
+    "title": "How Does it Work?",
+    "step1": {
+      "step": "Step 1",
+      "title": "Register your Company",
+      "desc": "Start easily by filling out the form on the Amani platform."
+    },
+    "step2": {
+      "step": "Step 2",
+      "title": "Verification by Amani",
+      "desc": "Amani will verify your registration data."
+    },
+    "step3": {
+      "step": "Step 3",
+      "title": "Select Projects and Join the Bidding",
+      "desc": "Select interested projects and participate in the bidding process."
+    },
+    "step4": {
+      "step": "Step 4",
+      "title": "Win and Start Your Work",
+      "desc": "Win the bid and get started on your project immediately."
+    },
+    "step5": {
+      "step": "Step 5",
+      "title": "Use Material Financing",
+      "desc": "Enjoy the material financing Amani provides to keep your project running smoothly"
+    },
+    "step6": {
+      "step": "Step 6",
+      "title": "Invoice and Get Paid",
+      "desc": "Submit your invoice for completed work and receive payment, with the cost of materials used already subtracted."
+    }
+  },
+  "PartnershipReq": {
+    "title": "Partnership Requirements",
+    "cardDesc1": "It must be a tax-registered business entity.",
+    "cardDesc2": "The company must have been operational for over 2 years.",
+    "cardDesc3": "Must be able to provide a project portfolio.",
+    "cardDesc4": "Must have a construction business permit."
+  },
+  "Closing": {
+    "line1": "Easy, right?",
+    "line2": "Projects with Amani work seamlessly and stress-free.",
+    "line3": "We’ve got your back all the way!"
+  },
+  "Form": {
+    "title": "Get access to large-scale projects now!"
+  },
+  "Footer": {
+    "joinAs": "Join as",
+    "products": {
+      "buyer": {
+        "title": "Buyer"
+      },
+      "investor": {
+        "title": "Investor"
+      },
+      "seller": {
+        "title": "Seller"
+      },
+      "developer": {
+        "title": "Developer"
+      },
+      "contractor": {
+        "title": "Contractor"
+      },
+      "landOwner": {
+        "title": "Land Owner"
+      },
+      "supplier": {
+        "title": "Supplier"
+      },
+      "salesAgent": {
+        "title": "Sales Agent"
+      }
+    },
+    "location": "Location",
+    "ojk1": "All financial processes at Amani go through licensed banks that are supervised by the",
+    "ojk2": "inancial Services Authority (OJK)",
+    "and": "and",
+    "ojk3": "Bank Indonesia",
+    "ojk4": "and are participants in the",
+    "ojk5": "LPS guarantee program."
+  }
+}

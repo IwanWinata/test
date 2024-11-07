@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-import 'dotenv/config'
+import "dotenv/config";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin();
+
 const nextConfig = {
-  basePath: '/contractor',
-  output: 'standalone',
+  basePath: "",
+  output: "standalone",
   env: {
     DB_USER: process.env.DB_USER,
     DB_HOST: process.env.DB_HOST,
@@ -17,4 +21,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
