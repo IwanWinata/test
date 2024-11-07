@@ -46,3 +46,4 @@ deploy:
       "
   only:
     - production
+  when: manual
