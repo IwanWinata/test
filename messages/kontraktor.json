@@ -1,0 +1,108 @@
+{
+  "NavBar": {
+    "about": "Tentang Kami",
+    "build": "Bangun Sebagai",
+    "story": "Kisah Amani"
+  },
+  "Jumbotron": {
+    "titleLine1": "Akses ke Peluang",
+    "titleLine2": "Proyek Terbesar",
+    "titleLine3": "Sekaligus Modal",
+    "titleLine4": "Kerjanya",
+    "desc": "Dapatkan peluang proyek besar melalui Amani. Gak cuma dapet proyek, pendanaan modal kerja juga siap bikin operasional kamu makin lancar!",
+    "button": "Mulai Sekarang"
+  },
+  "WhyAmani": {
+    "title": "Kenapa Amani?",
+    "cardTitle1": "Pembayaran Terjamin",
+    "cardDesc1": "Tenang, pembayaran pekerjaan kamu terjamin di Amani.",
+    "cardTitle2": "Pendanaan Material",
+    "cardDesc2": "Belanja sekarang, bayar belakangan dengan skema syariah yang aman.",
+    "cardTitle3": "Proyek Melimpah",
+    "cardDesc3": "Akses berbagai peluang proyek besar melalui tender di Amani."
+  },
+  "HowItWorks": {
+    "title": "Gimana Cara Kerjanya?",
+    "step1": {
+      "step": "Step 1",
+      "title": "Isi Form Pendaftaran",
+      "desc": "Daftarkan dirimu dengan mudah di platform Amani!"
+    },
+    "step2": {
+      "step": "Step 2",
+      "title": "Verifikasi oleh Amani",
+      "desc": "Amani akan memverifikasi data dari pendaftaran kamu."
+    },
+    "step3": {
+      "step": "Step 3",
+      "title": "Pilih Proyek dan Ikut Seleksi",
+      "desc": "Pilih proyek yang sesuai, dan ikut proses seleksi tender."
+    },
+    "step4": {
+      "step": "Step 4",
+      "title": "Jadi Pemenang dan Mulai Pekerjaan",
+      "desc": "Menangkan tender dan langsung mulai pekerjaanmu!"
+    },
+    "step5": {
+      "step": "Step 5",
+      "title": "Gunakan Fasilitas Pembiayaan Material",
+      "desc": "Nikmati pembiayaan material oleh Amani untuk kelancaran proyek."
+    },
+    "step6": {
+      "step": "Step 6",
+      "title": "Tagihkan dan Terima Pembayaran",
+      "desc": "Kirim invoice untuk seluruh pekerjaanmu dan terima pembayaran yang sudah dikurangi pembiayaan material yang digunakan!"
+    }
+  },
+  "PartnershipReq": {
+    "title": "Syarat Kontraktor",
+    "cardDesc1": "Badan usaha wajib pajak",
+    "cardDesc2": "Perusahaan lebih dari 2 tahun berjalan",
+    "cardDesc3": "Dapat menunjukkan portofolio proyek",
+    "cardDesc4": "Memiliki izin usaha jasa konstruksi"
+  },
+  "Closing": {
+    "line1": "Mudah banget, kan?",
+    "line2": "Proyek bareng Amani jadi lancar tanpa ribet.",
+    "line3": "Kami siap dukung penuh!"
+  },
+  "Form": {
+    "title": "Yuk, dapatkan akses ke proyek besar sekarang!"
+  },
+  "Footer": {
+    "joinAs": "Gabung Sebagai",
+    "products": {
+      "buyer": {
+        "title": "Buyer"
+      },
+      "investor": {
+        "title": "Investor"
+      },
+      "seller": {
+        "title": "Seller"
+      },
+      "developer": {
+        "title": "Developer"
+      },
+      "contractor": {
+        "title": "Kontraktor"
+      },
+      "landOwner": {
+        "title": "Land Owner"
+      },
+      "supplier": {
+        "title": "Supplier"
+      },
+      "salesAgent": {
+        "title": "Sales Agent"
+      }
+    },
+    "location": "Lokasi",
+    "ojk1": "Seluruh proses finansial di Amani melalui bank yang berizin dan diawasi oleh",
+    "ojk2": "Otoritas Jasa Keuangan (OJK)",
+    "and": "dan",
+    "ojk3": "Bank Indonesia",
+    "ojk4": "serta merupakan peserta",
+    "ojk5": "penjaminan LPS"
+  }
+}

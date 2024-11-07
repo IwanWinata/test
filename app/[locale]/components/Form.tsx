@@ -2,11 +2,11 @@
 
 import { TextField, Button, Typography } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
-import { FC, useContext } from "react";
-import { BaseContext } from "../context/BaseContext";
+import { FC } from "react";
+import { useTranslations } from "next-intl";
 
 const Form: FC = () => {
-  const ItemContext = useContext(BaseContext);
+  const t = useTranslations("Form");
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#DBF5FF]">
@@ -14,9 +14,7 @@ const Form: FC = () => {
         {/* Left Section */}
         <div className="flex flex-col justify-center max-w-[33.5rem]">
           <Typography className="text-[2.25rem] font-semibold mb-4">
-            {ItemContext.languages === "indonesia"
-              ? "Yuk, dapatkan akses ke proyek besar sekarang!"
-              : "Get access to large-scale projects now!"}
+            {t("title")}
           </Typography>
         </div>
 
