@@ -2,8 +2,8 @@
 
 import { StaticImageData } from "next/image";
 import React, { createContext, ReactNode, useState } from "react";
-import indonesiaIcon from "@public/img/icon/indonesia.svg";
-import englishIcon from "@public/img/icon/english.svg";
+import indonesiaIcon from "@assets/svgs/indonesia.svg";
+import englishIcon from "@assets/svgs/english.svg";
 
 export interface languagesType {
   country: "indonesia" | "english";

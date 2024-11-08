@@ -3,7 +3,7 @@ import React, { useMemo } from "react";
 import Image from "next/image";
 import { Box, FormControl, MenuItem, Select, Typography } from "@mui/material";
 import Link from "next/link";
-import lpsLogo from "@public/img/LPS.png";
+import lpsLogo from "@assets/img/LPS.png";
 import {
   buyerIconSvg,
   contructorIconSvg,

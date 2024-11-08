@@ -1,7 +1,7 @@
 // pages/index.js
 
 import Image from "next/image";
-import backgroundImage from "@public/img/how-it-works.png";
+import backgroundImage from "@assets/img/how-it-works.png";
 import { Typography } from "@mui/material";
 import { FC } from "react";
 import { useTranslations } from "next-intl";

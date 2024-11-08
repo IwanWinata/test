@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import alertSuccessGif from "@public/img/gif/success_animate.gif";
-import alertErrorGif from "@public/img/gif/error_animate.gif";
+import alertSuccessGif from "@assets/img/gif/success_animate.gif";
+import alertErrorGif from "@assets/img/gif/error_animate.gif";
 import Image from "next/image";
 import { Typography } from "@mui/material";
 interface props {

@@ -3,7 +3,7 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Image from "next/image";
-import jumbotronImage from "@public/img/jumbotron.png";
+import jumbotronImage from "@assets/img/jumbotron.png";
 import { useTranslations } from "next-intl";
 const Jumbotron = () => {
   const t = useTranslations("Jumbotron");

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import backgroundImage from "@public/img/closing-bg.png";
+import backgroundImage from "@assets/img/closing-bg.png";
 import { Typography } from "@mui/material";
 import { useTranslations } from "next-intl";
 export default function Closing() {
