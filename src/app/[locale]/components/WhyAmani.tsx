@@ -1,10 +1,10 @@
 // pages/index.js
 
 import Image from "next/image";
-import backgroundImage from "@/public/img/why-amani.png";
-import FormSvg from "@/public/form-regular.svg";
-import LicenseSvg from "@/public/license-outline.svg";
-import BricksSvg from "@/public/line-bricks.svg";
+import backgroundImage from "@public/img/why-amani.png";
+import FormSvg from "@public/form-regular.svg";
+import LicenseSvg from "@public/license-outline.svg";
+import BricksSvg from "@public/line-bricks.svg";
 import { Box, Typography } from "@mui/material";
 import { useTranslations } from "next-intl";
 

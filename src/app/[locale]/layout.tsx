@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import "@/public/style/globals.css";
+import "@public/style/globals.css";
 import ClientLayout from "./ClientLayout";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
