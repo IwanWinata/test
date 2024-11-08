@@ -8,8 +8,8 @@ import { getMessages } from "next-intl/server";
 const poppins = Poppins({ subsets: ["latin"], weight: "300" });
 
 export const metadata: Metadata = {
-  title: "Amani - Land Owner",
-  description: "Amani - Land Owner",
+  title: "Amani - Contractor",
+  description: "Amani - Contractor",
 };
 
 export default async function RootLayout({
