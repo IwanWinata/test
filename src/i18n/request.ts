@@ -10,13 +10,12 @@ export default getRequestConfig(async ({ requestLocale }) => {
     !locale ||
     !routing.locales.includes(locale as "kontraktor" | "contractor")
   ) {
-    console.log("sayang", locale);
-
     locale = routing.defaultLocale;
   }
 
   return {
     locale,
+    timeZone: "Asia/Jakarta",
     messages: (await import(`../messages/${locale}.json`)).default,
   };
 });

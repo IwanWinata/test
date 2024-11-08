@@ -7,7 +7,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { LanguagesItem, languagesType } from "../context/BaseContext";
 import { useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/routing";
+import { useRouter } from "@/src/i18n/routing";
 import { useParams } from "next/navigation";
 import indonesiaIcon from "@/public/img/icon/indonesia.svg";
 import englishIcon from "@/public/img/icon/english.svg";
