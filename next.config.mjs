@@ -5,7 +5,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig = {
-  basePath: "",
+  basePath: "/contractor",
   output: "standalone",
   env: {
     DB_USER: process.env.DB_USER,
