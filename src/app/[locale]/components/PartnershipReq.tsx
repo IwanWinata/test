@@ -2,10 +2,10 @@
 
 import { Typography } from "@mui/material";
 import Image, { StaticImageData } from "next/image";
-import cardImage from "@/public/img/partner-req.png";
-import cardImage2 from "@/public/img/partner-req-2.png";
-import cardImage3 from "@/public/img/partner-req-3.png";
-import cardImage4 from "@/public/img/partner-req-4.png";
+import cardImage from "@public/img/partner-req.png";
+import cardImage2 from "@public/img/partner-req-2.png";
+import cardImage3 from "@public/img/partner-req-3.png";
+import cardImage4 from "@public/img/partner-req-4.png";
 import { useTranslations } from "next-intl";
 
 export default function PartnershipReq() {
