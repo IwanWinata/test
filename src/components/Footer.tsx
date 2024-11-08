@@ -22,9 +22,9 @@ import {
   tiktokIconSvg,
   youtubeIconSvg,
 } from "./iconSvg/mediaSocial";
-import { LanguagesItem } from "@/context/BaseContext";
+import { LanguagesItem } from "@/src/context/BaseContext";
 import { useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/routing";
+import { useRouter } from "@/src/i18n/routing";
 import { useParams } from "next/navigation";
 
 const Footer = () => {

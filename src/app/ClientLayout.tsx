@@ -2,8 +2,8 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { analytics, logEvent } from "@/lib/firebase";
-import { BaseProvider } from "@/context/BaseContext";
+import { analytics, logEvent } from "@/src/lib/firebase";
+import { BaseProvider } from "@/src/context/BaseContext";
 
 export default function ClientLayout({
   children,
