@@ -2,8 +2,8 @@
 import React from "react";
 import { createTheme, ThemeProvider } from "@mui/material";
 
-import Navbar from "@/src/components/Navbar";
-import Footer from "@/src/components/Footer";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Poppins } from "next/font/google";
 import Jumbotron from "./components/Jumbotron";
 import WhyAmani from "./components/WhyAmani";
